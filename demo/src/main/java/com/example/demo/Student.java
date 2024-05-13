@@ -13,11 +13,11 @@ public class Student {
         this.name = name;
     }
 
-    private int getId(){
+    public int getId(){
         return id;
     }
 
-    private void setId(int id){
+    public void setId(int id){
         this.id = id;
     }
 }
